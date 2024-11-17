@@ -104,6 +104,11 @@ header h1 {
 }
 /* Main Section */
 
+#see-more {
+    text-decoration: none;
+    color: #333;
+}
+
 main {
     padding: 2rem;
 }
