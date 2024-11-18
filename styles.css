@@ -22,6 +22,10 @@ body.dark-mode header {
     background-color: #444;
 }
 
+body.dark-mode #title h1 {
+    color: white;
+}
+
 body.dark-mode footer {
     background-color: #444;
 }
@@ -104,9 +108,21 @@ header h1 {
 }
 /* Main Section */
 
+#about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
 #see-more {
     text-decoration: none;
     color: #333;
+}
+
+#front-image {
+    width: 300px;
+    border-radius: 35px;
 }
 
 main {
@@ -120,6 +136,10 @@ section {
     border-radius: 10px;
     padding: 0 10px;
     padding-bottom: 20px;
+}
+
+#gallery h2 {
+    text-align: center;
 }
 
 .gallery-grid {
